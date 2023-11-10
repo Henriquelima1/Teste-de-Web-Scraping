@@ -1,10 +1,10 @@
-# Web Crawling and Indexing
+# Web Scraping com BeautifulSoup
 
-Este script em Python realiza a indexação de páginas web utilizando web crawling. Ele faz o download do conteúdo HTML de uma página web, extrai o texto, remove caracteres não alfanuméricos, tokeniza o texto em palavras e cria um índice invertido associando cada palavra às posições em que ela ocorre no texto.
+Este script em Python utiliza as bibliotecas `requests` e `BeautifulSoup` para realizar web scraping e extrair informações de uma página web. O exemplo atual foi desenvolvido para extrair detalhes de elementos específicos de um site fictício.
 
-## Requisitos
+## Instalação das Dependências
 
-Certifique-se de ter o Python instalado em seu sistema. Além disso, instale as bibliotecas necessárias usando o seguinte comando:
+Certifique-se de ter as bibliotecas necessárias instaladas antes de executar o script:
 
 ```bash
 pip install requests
